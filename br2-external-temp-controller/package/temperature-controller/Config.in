@@ -1,0 +1,4 @@
+config BR2_PACKAGE_TEMPERATURE_CONTROLLER
+    bool "temperature-controller"
+    help
+        Heats, measures, and maintains the temperature of a temperature sensor.

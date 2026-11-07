@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_TEMP_CONTROLLER_PATH/package/temperature-controller/Config.in"
