@@ -1,4 +1,5 @@
 config BR2_PACKAGE_TEMPERATURE_CONTROLLER
     bool "temperature-controller"
+    select BR2_PACKAGE_I2C_TOOLS
     help
         Heats, measures, and maintains the temperature of a temperature sensor.
