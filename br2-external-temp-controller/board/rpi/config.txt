@@ -30,3 +30,6 @@ arm_64bit=1
 
 # Enable I2C
 dtparam=i2c_arm=on
+
+# Enable PWM
+dtoverlay=pwm,pin=18,func=2
